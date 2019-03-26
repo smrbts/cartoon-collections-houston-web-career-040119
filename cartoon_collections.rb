@@ -17,4 +17,5 @@ def find_the_cheese(strings)
   
   strings.find do |maybe_cheese|
     cheeses.include?(maybe_cheese)
+  end
 end
